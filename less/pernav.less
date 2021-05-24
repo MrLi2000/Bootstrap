@@ -1,0 +1,683 @@
+@charset "utf-8";
+
+.navigation{
+    width: 100%;
+    height: 44px;
+    background-color: #99CC33;
+    margin-top: 20px;
+    .navbar{
+        width: 1190px;
+        height: 44px;
+        min-height: 44px;
+        margin: 0 auto;
+        background-color: #9c3;
+        border: none;
+        border-radius: 0;
+        ul{
+            width: 1190px;
+            height: 44;
+            min-height: 44px;
+            display: flex;
+            li{
+                position: relative;
+                width: 110px;
+                height: 44px;
+                text-align: center;
+                margin-right: 2px;
+                .bgvary{
+                    font-size: 18px;
+                    color: #fff;
+                    display: block;
+                    width: 110px;
+                    height: 44px;
+                    padding: 0;
+                    line-height: 44px;
+                    &:hover{
+                        color: #fff;
+                        background-color: #77BB00;
+                    }
+                }
+                //狗狗盒子
+                .dog-box{
+                    width: 513px;
+                    height: 340px;
+                    border:  2px solid #7b0;
+                    position: absolute;
+                    top: 44px;
+                    left: 0;
+                    padding:20px;
+                    display: none;
+                    z-index: 10;
+                    background-color: #fff;
+                    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+                    &::after{
+                        position: absolute;
+                        top: -5px;
+                        left: 47px;
+                        content: "";
+                        width: 10px;
+                        height: 10px;
+                        background-color: #7b0;
+                        transform: rotateZ(45deg);
+                        z-index: -1;
+                    }
+                    .dog-top-text{
+                        width: 470px;
+                        height: 130px;
+                        border-bottom: 1px dashed gray;
+                        .top-tit{
+                            text-align: left;
+                            a{
+                                color: #7B0;
+                                font-size: 16px;
+                            }
+                        }
+                        .top-con{
+                            margin-top: 5px;
+                            p{
+                                text-align: left;
+                                span{
+                                    color: #666;
+                                    font-size: 14px;
+                                    display: inline-block;
+                                }
+                                a{
+                                    color: #000;
+                                    font-size: 14px;
+                                    &:hover{
+                                        color: #7b0;  
+                                    }
+                                }
+                                a + a{
+                                    margin-left: 10px;
+                                }
+                                .heig{
+                                    float: left;
+                                    height: 40px;
+                                    width: 46px;
+                                }
+                            }
+                            p + p{
+                                margin-top: 5px;
+                            }
+                        }
+                    }
+                    .dog-bottom-text{
+                        text-align: left;
+                        .sy,.xl,.yl{
+                            float: left;
+                            display: inline-block;
+                            margin-top: 10px;
+                            text-align: left;
+                            width: 70px;
+                            height: 150px;
+                            font-size: 16px;
+                            a{
+                                color: #7b0;
+                                font-size: 16px;
+                            }
+                            p{
+                                margin-top: 5px;
+                                a{
+                                    font-size: 14px;
+                                    color: #000;
+                                    &:hover{
+                                        color: #7b0;
+                                    }
+                                }
+                            }
+                        }
+                        .xl{
+                            width: 100px;
+                            margin-left: 30px;
+                        }
+                        .yl{
+                            width: 100px;
+                            margin-left: 30px;
+                        }
+                    }
+                }
+                // 猫咪盒子
+                .cat-box{
+                    width: 450px;
+                    height: 295px;
+                    border:  2px solid #7b0;
+                    position: absolute;
+                    top: 44px;
+                    left: 0;
+                    padding:20px;
+                    display: none;
+                    z-index: 10;
+                    background-color: #fff;
+                    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+                    &::after{
+                        position: absolute;
+                        top: -5px;
+                        left: 47px;
+                        content: "";
+                        width: 10px;
+                        height: 10px;
+                        background-color: #7b0;
+                        transform: rotateZ(45deg);
+                        z-index: -1;
+                    }
+                    .cat-top-text{
+                        width: 410px;
+                        height: 80px;
+                        border-bottom: 1px dashed gray;
+                        .top-tit{
+                            text-align: left;
+                            a{
+                                color: #7B0;
+                                font-size: 16px;
+                            }
+                        }
+                        .top-con{
+                            margin-top: 5px;
+                            p{
+                                text-align: left;
+                                span{
+                                    color: #666;
+                                    font-size: 14px;
+                                    display: inline-block;
+                                }
+                                a{
+                                    color: #000;
+                                    font-size: 14px;
+                                    &:hover{
+                                        color: #7b0;  
+                                    }
+                                }
+                                a + a{
+                                    margin-left: 10px;
+                                }
+                                .heig{
+                                    float: left;
+                                    height: 40px;
+                                    width: 46px;
+                                }
+                            }
+                            p + p{
+                                margin-top: 5px;
+                            }
+                        }
+                    }
+                    .cat-bottom-text{
+                        text-align: left;
+                        .sy,.xl,.yl{
+                            float: left;
+                            display: inline-block;
+                            margin-top: 10px;
+                            text-align: left;
+                            width: 70px;
+                            height: 150px;
+                            font-size: 16px;
+                            a{
+                                color: #7b0;
+                                font-size: 16px;
+                            }
+                            p{
+                                margin-top: 5px;
+                                a{
+                                    font-size: 14px;
+                                    color: #000;
+                                    &:hover{
+                                        color: #7b0;
+                                    }
+                                }
+                            }
+                        }
+                        .xl{
+                            width: 100px;
+                            margin-left: 30px;
+                        }
+                        .yl{
+                            width: 100px;
+                            margin-left: 30px;
+                        }
+                    }
+                }
+                // 小宠盒子
+                .pet-box{
+                    width: 370px;
+                    height: 255px;
+                    border:  2px solid #7b0;
+                    position: absolute;
+                    top: 44px;
+                    left: 0;
+                    padding:20px;
+                    display: none;
+                    z-index: 10;
+                    background-color: #fff;
+                    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+                    &::after{
+                        position: absolute;
+                        top: -5px;
+                        left: 47px;
+                        content: "";
+                        width: 10px;
+                        height: 10px;
+                        background-color: #7b0;
+                        transform: rotateZ(45deg);
+                        z-index: -1;
+                    }
+                    .pet-top-text{
+                        width: 330px;
+                        height: 80px;
+                        border-bottom: 1px dashed gray;
+                        .top-tit{
+                            text-align: left;
+                            a{
+                                color: #7B0;
+                                font-size: 16px;
+                            }
+                        }
+                        .top-con{
+                            margin-top: 5px;
+                            p{
+                                text-align: left;
+                                span{
+                                    color: #666;
+                                    font-size: 14px;
+                                    display: inline-block;
+                                }
+                                a{
+                                    color: #000;
+                                    font-size: 14px;
+                                    &:hover{
+                                        color: #7b0;  
+                                    }
+                                }
+                                a + a{
+                                    margin-left: 10px;
+                                }
+                                .heig{
+                                    float: left;
+                                    height: 40px;
+                                    width: 46px;
+                                }
+                            }
+                            p + p{
+                                margin-top: 5px;
+                            }
+                        }
+                    }
+                    .pet-bottom-text{
+                        text-align: left;
+                        .sy,.xl,.yl{
+                            float: left;
+                            display: inline-block;
+                            margin-top: 10px;
+                            text-align: left;
+                            width: 70px;
+                            height: 150px;
+                            font-size: 16px;
+                            a{
+                                color: #7b0;
+                                font-size: 16px;
+                            }
+                            p{
+                                margin-top: 5px;
+                                a{
+                                    font-size: 14px;
+                                    color: #000;
+                                    &:hover{
+                                        color: #7b0;
+                                    }
+                                }
+                            }
+                        }
+                        .xl{
+                            width: 80px;
+                            margin-left: 20px;
+                        }
+                        .yl{
+                            width: 100px;
+                            margin-left: 20px;
+                        }
+                    }
+                }
+                // 水族盒子
+                .water-box{
+                    width: 310px;
+                    height: 275px;
+                    border:  2px solid #7b0;
+                    position: absolute;
+                    top: 44px;
+                    left: 0;
+                    padding:20px;
+                    display: none;
+                    z-index: 10;
+                    background-color: #fff;
+                    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+                    &::after{
+                        position: absolute;
+                        top: -5px;
+                        left: 47px;
+                        content: "";
+                        width: 10px;
+                        height: 10px;
+                        background-color: #7b0;
+                        transform: rotateZ(45deg);
+                        z-index: -1;
+                    }
+                    .water-top-text{
+                        width: 270px;
+                        height: 80px;
+                        border-bottom: 1px dashed gray;
+                        .top-tit{
+                            text-align: left;
+                            a{
+                                color: #7B0;
+                                font-size: 16px;
+                            }
+                        }
+                        .top-con{
+                            margin-top: 5px;
+                            p{
+                                text-align: left;
+                                span{
+                                    color: #666;
+                                    font-size: 14px;
+                                    display: inline-block;
+                                }
+                                a{
+                                    color: #000;
+                                    font-size: 14px;
+                                    &:hover{
+                                        color: #7b0;  
+                                    }
+                                }
+                                a + a{
+                                    margin-left: 10px;
+                                }
+                                .heig{
+                                    float: left;
+                                    height: 40px;
+                                    width: 46px;
+                                }
+                            }
+                            p + p{
+                                margin-top: 5px;
+                            }
+                        }
+                    }
+                    .water-bottom-text{
+                        text-align: left;
+                        .sy,.xl,.yl{
+                            float: left;
+                            display: inline-block;
+                            margin-top: 10px;
+                            text-align: left;
+                            width: 70px;
+                            height: 150px;
+                            font-size: 16px;
+                            a{
+                                color: #7b0;
+                                font-size: 16px;
+                            }
+                            p{
+                                margin-top: 5px;
+                                a{
+                                    font-size: 14px;
+                                    color: #000;
+                                    &:hover{
+                                        color: #7b0;
+                                    }
+                                }
+                            }
+                        }
+                        .xl{
+                            width: 80px;
+                            margin-left: 20px;
+                        }
+                        .yl{
+                            width: 100px;
+                            margin-left: 20px;
+                        }
+                    }
+                }
+                // 爬虫盒子
+                .insect-box{
+                    width: 310px;
+                    height: 275px;
+                    border:  2px solid #7b0;
+                    position: absolute;
+                    top: 44px;
+                    left: 0;
+                    padding:20px;
+                    display: none;
+                    z-index: 10;
+                    background-color: #fff;
+                    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+                    &::after{
+                        position: absolute;
+                        top: -5px;
+                        left: 47px;
+                        content: "";
+                        width: 10px;
+                        height: 10px;
+                        background-color: #7b0;
+                        transform: rotateZ(45deg);
+                        z-index: -1;
+                    }
+                    .insect-top-text{
+                        width: 270px;
+                        height: 80px;
+                        border-bottom: 1px dashed gray;
+                        .top-tit{
+                            text-align: left;
+                            a{
+                                color: #7B0;
+                                font-size: 16px;
+                            }
+                        }
+                        .top-con{
+                            margin-top: 5px;
+                            p{
+                                text-align: left;
+                                span{
+                                    color: #666;
+                                    font-size: 14px;
+                                    display: inline-block;
+                                }
+                                a{
+                                    color: #000;
+                                    font-size: 14px;
+                                    &:hover{
+                                        color: #7b0;  
+                                    }
+                                }
+                                a + a{
+                                    margin-left: 10px;
+                                }
+                                .heig{
+                                    float: left;
+                                    height: 40px;
+                                    width: 46px;
+                                }
+                            }
+                            p + p{
+                                margin-top: 5px;
+                            }
+                        }
+                    }
+                    .insect-bottom-text{
+                        text-align: left;
+                        .sy,.xl,.yl{
+                            float: left;
+                            display: inline-block;
+                            margin-top: 10px;
+                            text-align: left;
+                            width: 70px;
+                            height: 150px;
+                            font-size: 16px;
+                            a{
+                                color: #7b0;
+                                font-size: 16px;
+                            }
+                            p{
+                                margin-top: 5px;
+                                a{
+                                    font-size: 14px;
+                                    color: #000;
+                                    &:hover{
+                                        color: #7b0;
+                                    }
+                                }
+                            }
+                        }
+                        .xl{
+                            width: 80px;
+                            margin-left: 20px;
+                        }
+                        .yl{
+                            width: 100px;
+                            margin-left: 20px;
+                        }
+                    }
+                }
+                //植物
+                .botany-box{
+                    width: 452px;
+                    height: 275px;
+                    border:  2px solid #7b0;
+                    position: absolute;
+                    top: 44px;
+                    left: 0;
+                    padding:20px;
+                    display: none;
+                    z-index: 10;
+                    background-color: #fff;
+                    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+                    &::after{
+                        position: absolute;
+                        top: -5px;
+                        left: 47px;
+                        content: "";
+                        width: 10px;
+                        height: 10px;
+                        background-color: #7b0;
+                        transform: rotateZ(45deg);
+                        z-index: -1;
+                    }
+                    .botany-top-text{
+                        width: 410px;
+                        height: 80px;
+                        border-bottom: 1px dashed gray;
+                        .top-tit{
+                            text-align: left;
+                            a{
+                                color: #7B0;
+                                font-size: 16px;
+                            }
+                        }
+                        .top-con{
+                            margin-top: 5px;
+                            p{
+                                text-align: left;
+                                span{
+                                    color: #666;
+                                    font-size: 14px;
+                                    display: inline-block;
+                                }
+                                a{
+                                    color: #000;
+                                    font-size: 14px;
+                                    &:hover{
+                                        color: #7b0;  
+                                    }
+                                }
+                                a + a{
+                                    margin-left: 10px;
+                                }
+                                .heig{
+                                    float: left;
+                                    height: 40px;
+                                    width: 46px;
+                                }
+                            }
+                            p + p{
+                                margin-top: 5px;
+                            }
+                        }
+                    }
+                    .botany-bottom-text{
+                        text-align: left;
+                        .zp,.jb,.fz{
+                            float: left;
+                            display: inline-block;
+                            margin-top: 10px;
+                            text-align: left;
+                            width: 100px;
+                            height: 150px;
+                            font-size: 16px;
+                            a{
+                                color: #7b0;
+                                font-size: 16px;
+                            }
+                            p{
+                                margin-top: 5px;
+                                a{
+                                    font-size: 14px;
+                                    color: #000;
+                                    &:hover{
+                                        color: #7b0;
+                                    }
+                                }
+                            }
+                        }
+                        .jb{
+                            margin-left: 30px;
+                        }
+                        .fz{
+                            margin-left: 30px;
+                        }
+                    }
+                }
+            }
+            li.active{
+                a{
+                    height: 44px;
+                    background-color: #77BB00;
+                    color: #fff;
+                    font-size: 18px;
+                    &:hover{
+                        background-color: #77BB00;
+                        color: #fff;
+                    }
+                }
+            }
+            li.show-dog{
+                &:hover .dog-box{
+                    display: block;
+                }
+            }
+            li.show-cat{
+                &:hover .cat-box{
+                    display: block;
+                }
+            }
+            li.show-pet{
+                &:hover .pet-box{
+                    display: block;
+                }
+            }
+            li.show-water{
+                &:hover .water-box{
+                    display: block;
+                }
+            }
+            li.show-insect{
+                &:hover .insect-box{
+                    display: block;
+                }
+            }
+            li.show-botany{
+                &:hover .botany-box{
+                    display: block;
+                }
+            }
+        }
+    }
+}

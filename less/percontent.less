@@ -1,0 +1,402 @@
+@charset "utf-8";
+
+.content{
+    width: 100%;
+    .banner-cont{
+        width: 100%;
+        height: 420px;
+        padding-top: 30px;
+        background-color: #EFEFEF;
+        .banner{
+            width: 1190px;
+            height: 360px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            .banner-left{
+                width: 880px;
+                height: 360px;
+                img{
+                    width: 880px;
+                    height: 360px;
+                }
+                ol.carousel-indicators{
+                    position: absolute;
+                    bottom: 30px;
+                    left: 90%;
+                    z-index: 20;
+                    .active{
+                        width: 12px;
+                        height: 12px;
+                        background-color: #99CC33;
+                    }
+                    li{
+                        background-color: #666666;
+                        width: 8px;
+                        height: 8px;
+                    }
+                }
+                .carousel-inner{
+                    .item{
+                        .carousel-caption{
+                            height: 75px;
+                            width: 880px;
+                            margin-left: -175px;
+                            margin-bottom: -20px;
+                            background: url(../img/opacity.png);
+                            text-align: left;
+                            padding-left: 20px;
+                            cursor: pointer;
+                            p{
+                                font-size: 18px;
+                                &:nth-child(2){
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                    a.left{
+                        position: absolute;
+                        left: 20px;
+                        top: 136px;
+                        width: 44px;
+                        height: 88px;
+                        background: url(../img/btn2.png) no-repeat -455px -188px;
+                    }
+                    a.right{
+                        position: absolute;
+                        right: 20px;
+                        top: 136px;
+                        width: 44px;
+                        height: 88px;
+                        background: url(../img/btn2.png) no-repeat -455px -286px;
+                    }
+                }
+            }
+            .classify-right{
+                width: 280px;
+                height: 360px;
+                background-color: #fff;
+                a.iconbg-1,a.iconbg-2,a.iconbg-3,a.iconbg-4{
+                    display: inline-block; 
+                    width: 43px;
+                    height: 35px;
+                    background: url(../img/icon2.png) no-repeat 4px -57px;
+                }
+                a.iconbg-2{
+                    background-position: -55px -57px;
+                }
+                a.iconbg-3{
+                    background-position: -108px -57px;
+                }
+                a.iconbg-4{
+                    background-position: -159px -57px;
+                }
+                .media{
+                    height: 91px;
+                    display: block;
+                    border-bottom: 1px solid #efefef;
+                    cursor: pointer;
+                    box-sizing: border-box;
+                    padding: 20px;
+                    margin: 0;
+                    .media-body{
+                        h2{
+                            font-size: 24px;
+                            &:hover{
+                                color: #99CC33;
+                            }
+                        }
+                        p{
+                            font-size: 14px;
+                            padding-top: 7px;
+                            color: #999;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+    // 热门宠物
+    .hot-pet{
+        width: 1190px;
+        height: 394px;
+        margin: 15px auto;
+        .hot-pet-titl{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            span.hot{
+                font-size: 24px;
+                color: #383838;
+            }
+            a{
+                font-size: 16px;
+                vertical-align: middle;
+                color: #000;
+                &:hover{
+                    color: #77BB00;
+                }
+            }
+        }
+        .hot-pet-list{
+            width: 100%;
+            height: 368px;
+            ul.menu-list{
+                margin-top: 10px;
+                width: 100%;
+                height: 368px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-content: space-between;
+                li{
+                    text-align: center;
+                    width: 180px;
+                    height: 170px;
+                    transition: all 0.2s linear;
+                    &:hover{
+                        box-shadow: 2px -3px 8px rgba(0, 0, 0, 0.2);
+                        transform: translateY(-10px);
+                        transition: all 0.2s linear;
+                    }
+                    a{
+                        
+                        img{
+                            width: 180px;
+                            height: 135px;
+                            display: block;
+                        }
+                    }
+                    a.typeface{
+                        display: block;
+                        width: 180px;
+                        height: 35px;
+                        line-height: 35px;
+                        background-color: #EFEFEF;
+                        font-size: 14px;
+                        color: #000;
+                        &:hover{
+                            color: #77BB00;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // 狗狗百科
+    // 猫咪百科
+    // 小宠爬虫百科
+    // 植物百科
+    .dog-encyclopedias,.cat-encyclopedias,.piw-encyclopedias,.botany-encyclopedias{
+        width: 1190px;
+        height: 427px;
+        margin: 30px auto;
+        .dog-tit,.cat-tit,.piw-tit,.botany-tit{
+            position: relative;
+            height: 57px;
+            border-bottom: 3px solid #9C3;
+            span.bg-logo1{
+                display: inline-block;
+                width: 33px;
+                height: 54px;
+                background: url(../img/common2.png) no-repeat 0 0;
+            }
+            span.bg-logo2{
+                display: inline-block;
+                width: 33px;
+                height: 54px;
+                margin-top: 4px;
+                background: url(../img/common2.png) no-repeat -53px 0;
+            }
+            span.bg-logo3{
+                display: inline-block;
+                width: 33px;
+                height: 54px;
+                margin-top: 10px;
+                margin-left: 2px;
+                background: url(../img/common2.png) no-repeat -134px 0;
+            }
+            span.bg-logo4{
+                display: inline-block;
+                width: 33px;
+                height: 54px;
+                margin-top: 14px;
+                margin-left: 2px;
+                background: url(../img/common2.png) no-repeat -370px 0;
+            }
+            h2{
+                position: absolute;
+                left: 33px;
+                bottom: 0;
+                font-size: 24px;
+                color: #fff;
+                width: 156px;
+                height: 44px;
+                background-color: #9c3;
+                text-align: center;
+                line-height: 44px;
+            }
+            .tit-right{
+                font-size: 16px;
+                color: #999;
+                position: absolute;
+                right: 0;
+                bottom: 8px;
+                a{
+                    &:hover{
+                        color: #7b0;
+                    }
+                }
+            }
+        }
+        .dog-cont,.cat-cont,.piw-cont,.botany-cont{
+            width: 1190px;
+            height: 370px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .cont-left{
+                width: 280px;
+                height: 333px;
+                .carousel-inner{
+                    width: 280px;
+                    height: 333px;
+                    overflow: hidden;
+                    a.left{
+                        background: url(../img/btn2.png) no-repeat 0 -432px;
+                        position: absolute;
+                        width: 30px;
+                        height: 62px;
+                        left: 10px;
+                        top: 75px;
+                        opacity: .6;
+                        &:hover{
+                            opacity: 1;
+                        }
+                    }
+                    a.right{
+                        background: url(../img/btn2.png) no-repeat -45px -432px;
+                        position: absolute;
+                        width: 30px;
+                        height: 62px;
+                        right: 10px;
+                        top: 75px;
+                        opacity: .6;
+                        &:hover{
+                            opacity: 1;
+                        }
+                    }
+                    .item{
+                        img{
+                            width: 280px;
+                            height: 210px;
+                            cursor: pointer;
+                        }
+
+                    }
+                    .carousel-caption{
+                        span{
+                            display: block;
+                            position: absolute;
+                            background: url(../img/opacity.png);
+                            width: 280px;
+                            height: 40px;
+                            font-size: 18px;
+                            text-align: left;
+                            padding-left: 10px;
+                            line-height: 40px;
+                            left: -55px;
+                            bottom: -20px;
+                            cursor: pointer;
+                        }
+                        .caption-text{
+                            p{
+                                background-color: #F3F3F3;
+                                position: absolute;
+                                left: -55px;
+                                bottom: -144px;
+                                width: 280px;
+                                height: 124px;
+                                padding:10px;
+                                text-align: left;
+                                font-size: 14px;
+                                color: #000;
+                                font-family: "Microsoft YaHei";
+                                a{
+                                    color: #77BB00;
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+            }
+            .cont-middle{
+                padding: 10px 15px;
+                width: 600px;
+                height: 352px;
+                display: flex;
+                justify-content: space-between;
+                align-content: space-between;
+                flex-wrap: wrap;
+                .media{
+                    width: 280px;
+                    height: 68px;
+                    margin: 0;
+                    img{
+                        width: 90px;
+                        height: 68px;
+                    }
+                    .media-body{
+                        a{
+                            &:hover{
+                                color: #77BB00;
+                            }
+                        }
+                    }
+                }
+            }
+            .cont-right{
+                width: 280px;
+                height: 330px;
+                p{
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    margin-top: 4px;
+                    span{
+                        float: left;
+                        vertical-align: middle;
+                        display: inline-block;
+                        width: 22px;
+                        height: 18px;
+                        background: url(../img/icon2.png) no-repeat -33px -26px;
+                        margin-right: 8px;
+                    }
+                    a{
+                        &:hover{
+                            color: #7b0;
+                        }
+                    }
+                }   
+                p + p{
+                    margin-top: 13px;
+                }
+                
+            }
+        }
+        
+    }
+
+    //广告信息
+
+    .advmsg{
+        width: 1190px;
+        text-align: center;
+        color: #999;
+        font-size: 14px;
+        margin: 0 auto;
+    }
+}

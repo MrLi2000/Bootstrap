@@ -1,0 +1,383 @@
+
+@charset "utf-8";
+
+.content{
+    .banner{
+        overflow: hidden;
+        width: 1200px;
+        height: 380px;
+        margin: 0 auto;
+        #rotation{
+            width: 1200px;
+            height: 380px;
+               
+            }
+            .carousel-indicators{
+                position: absolute;
+                bottom: 30px;
+                left: 7%;
+                z-index: 15;
+                padding-left: 0;
+                margin-left: -30%;
+                text-align: center;
+                list-style: none;
+                li{
+                    display: inline-block;
+                    width: 28px;
+                    height: 28px;
+                    cursor: pointer;
+                    background-color: rgba(0, 0, 0, 0);
+                    border: 1px solid #fff;
+                    border-radius: 14px;
+                    &:hover{
+                        background-color: #ff6655;
+                    }
+                }
+                .active {
+                    width: 28px;
+                    height: 28px;
+                    border-radius: 14px;
+                    margin: 0;
+                    background-color: #ff6655;
+                }
+            }
+            // .btn-bottom{
+            //     position: absolute;
+            //     bottom: 30px;
+            //     left: 50%;
+            //     margin-left: -47px;
+            //     width: 108px;
+            //     height: 28px;
+            //     display: flex;
+            //     justify-content: space-between;
+            //     align-items: center;
+            //     span{
+            //         display: inline-block;
+            //         width: 28px;
+            //         height: 28px;
+            //         border-radius: 14px;
+            //         background-color: #fff;
+            //         margin-right: 0px;
+            //         text-align: center;
+            //         line-height: 28px;
+            //         color: #000;
+            //         font-size: 16px;
+            //         cursor: pointer;
+            //         &:hover{
+            //             color:#fff;
+            //             background-color: #ff6655;
+            //         }
+            //     }
+            //     span:nth-child(1){
+            //         color: white;
+            //         background-color: #ff6655;
+            //     }
+            // }
+    }
+    .img-cont{
+        overflow: hidden;
+        width: 100%;
+        height: 131px;
+        background-color: #f3f3f3;
+        border-bottom: 1px solid #ddd;
+        .img-body{
+            width: 1200px;
+            height: 130px;
+            margin:  auto;
+            overflow: hidden;
+            display: flex;
+            .img-list{
+                width: 230px;
+                height: 100%;
+                border-left: 1px solid #ddd;
+            }
+            .left{
+                .text{
+                    width: 110px;
+                    padding-top: 40px;
+                    padding-left: 10px;
+                    float: left;
+                    p{
+                        cursor: pointer;
+                        font-size: 18px;
+                        color: #ff6655;
+                        span{
+                            color: #999;
+                            font-size: 14px;
+                            &:hover{
+                                color: #f65;
+                            }
+                        }
+                    }
+
+                }
+                .img-nf{
+                    float: left;
+                    margin-top: 15px;
+                    img{
+                        width: 100px;
+                        height: 100px;
+                        vertical-align: middle;
+                    }
+                }
+            }
+            .center{
+                .text{
+                    width: 110px;
+                    padding-top: 40px;
+                    padding-left: 10px;
+                    float: left;
+                    p{
+                        cursor: pointer;
+                        font-size: 18px;
+                        color: #ff6655;
+                        span{
+                            display: block;
+                            color: #999;
+                            font-size: 14px;
+                            &:hover{
+                                color: #f65;
+                            }
+                        }
+                    }
+
+                }
+                .img-bq{
+                    float: left;
+                    margin-top: 15px;
+                    img{
+                        width: 100px;
+                        height: 100px;
+                        vertical-align: middle;
+                    }
+                }
+            }
+            .right{
+                padding-top: 15px;
+                padding-left: 10px;
+                width: 270px;
+                border-right: 1px solid #ddd;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                h4{
+                    color: #999;
+                    margin-bottom:10px;
+                }
+                a{  
+                    
+                    color: #333;
+                    font-size: 12px;
+                    text-decoration: none;
+                    &:hover{
+                        color: #f65;
+                    }
+                    span{
+                        display: inline-block;
+                        width: 2px;
+                        height: 2px;
+                        background: url("../img/icon.png") no-repeat -51px 0;
+                        margin: 0 5px 0 0;
+                        vertical-align: middle;
+                    }
+                }
+                
+            }
+        }
+    }
+    // 狗狗开始
+    .dog-msg,.cat-msg,.pet-msg,.water-msg,.insect-msg{
+        width: 1200px;
+        height: 446px;
+        margin: 20px auto;
+        .dog-title,.cat-title,.pet-title,.water-title,.insect-title{
+            height: 56px;
+            padding-bottom: 10px;
+            span{
+                float: left;
+                display: inline-block;
+                width: 50px;
+                height: 46px;
+                background: url(../img/common.png) no-repeat;
+                margin-right: 12px;
+            }
+            h2{
+                float: left;
+                font-size: 40px;
+                color: #f65;
+            }
+        }
+        .dog-body,.cat-body,.pet-body,.water-body,.insect-body{
+            height: 390px;
+            border: 1px solid #e6e6e6;
+            // 左侧小轮播
+            .dog-body-banner,.cat-body-banner,.pet-body-banner,.water-body-banner,.insect-body-banner{
+                float: left;
+                width: 389px;
+                height: 388px;
+                padding: 14px;
+                border-right: 1px solid #e6e6e6;
+                .active{
+                    background-color: #f65;
+                }
+                ol{
+                    li{
+                        background-color: #666666;
+                    }
+                }
+            }
+            // 狗狗用品
+            .dog-body-articles,.cat-body-articles,.pet-body-articles,.water-body-articles,.insect-body-articles{
+                width: 809px;
+                height: 226px;
+                float: left;
+                border-bottom: 1px solid #e6e6e6;
+                .articles-tit{
+                    margin: 15px 0 0 10px;
+                    a{
+                        font-size: 16px;
+                        color: #f65;
+                    }
+                }
+                .con-articles{
+                    width: 809px;
+                    height: 188px;
+                    
+                    ul{
+                        width: 809px;
+                        height: 188px;
+                        display:flex;
+
+                        li{
+                            width: 210px;
+                            height: 180px;
+                            text-align: center;
+                            border-right: 1px solid #e6e6e6;
+                            &:nth-child(4){
+                                border-right: none;
+                            }
+                            a{
+                                img{
+                                    display: block;
+                                    width: 180px;
+                                    height: 120px;
+                                    margin: 0 auto;
+                                    border: none;
+                                }
+                            }
+                            p{
+                                margin-top: 6px;
+                                font-size: 16px;
+                                color: #000;
+                                &:nth-child(2):hover{
+                                    color: #f65;
+                                    cursor: pointer;
+                                }
+                                &:nth-child(3){
+                                    color: #999;
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .sort-tit{
+                    margin: 15px 0 0 10px;
+                    a{
+                        font-size: 16px;
+                        color: #f65;
+                    }
+                }
+                .con-sort{
+                    width: 809px;
+                    height: 127px;
+                    ul{
+                        width: 809px;
+                        height: 127px;
+                        display: flex;
+                        li{
+                            width: 275px;
+                            height: 110px;
+                            text-align: center;
+                            border-right: 1px solid #e6e6e6;
+                            &:nth-child(3){
+                                border-right: none;
+                            }
+                            .media{
+                                margin-top: 10px;
+                                margin-left: 15px;
+                                .media-body{
+                                    padding-top: 10px;
+                                    text-align: left;
+                                    font-size: 12px;
+                                    color: #999;
+                                    h4{
+                                        color: #333;
+                                        font-size: 20px;
+                                        &:hover{
+                                            color: #f65;
+                                            cursor: pointer;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    //猫咪开始
+    .cat-msg{
+        .cat-title{
+            span{
+                float: left;
+                display: inline-block;
+                width: 50px;
+                height: 46px;
+                background: url(../img/common.png) no-repeat -79px 0;
+                margin-right: 12px;
+            }
+        }
+    }
+    //小宠开始
+    .pet-msg{
+        .pet-title{
+            span{
+                float: left;
+                display: inline-block;
+                width: 50px;
+                height: 46px;
+                background: url(../img/common.png) no-repeat -153px 0;
+                margin-right: 12px;
+            }
+        }
+    }  
+    //水族开始
+    .water-msg{
+        .water-title{
+            span{
+                float: left;
+                display: inline-block;
+                width: 50px;
+                height: 46px;
+                background: url(../img/common.png) no-repeat -215px 0;
+                margin-right: 12px;
+            }
+        }
+    }
+    //爬虫开始
+    .insect-msg{
+        .insect-title{
+            span{
+                float: left;
+                display: inline-block;
+                width: 50px;
+                height: 46px;
+                background: url(../img/common.png) no-repeat -277px 0;
+                margin-right: 12px;
+            }
+        }
+    }    
+}
