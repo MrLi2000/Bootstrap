@@ -1,0 +1,487 @@
+@charset "utf-8";
+main .navgation {
+  width: 100%;
+  height: 44px;
+  margin-top: 10px;
+  background-color: #FF6655;
+}
+main .navgation .nav-con {
+  position: relative;
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+main .navgation .nav-con .nav-left {
+  width: 684px;
+  height: 44px;
+  min-height: 44px;
+  border-radius: 0;
+  border: none;
+  background-color: #ff6655;
+}
+main .navgation .nav-con .nav-left ul.nav {
+  width: 684px;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .navgation .nav-con .nav-left ul.nav li {
+  width: 91px;
+  height: 100%;
+  border-left: 1px solid #e35342;
+  text-align: center;
+}
+main .navgation .nav-con .nav-left ul.nav li a.arrow-f {
+  width: 90px;
+  height: 100%;
+  line-height: 18px;
+  font-size: 18px;
+  color: #fff;
+}
+main .navgation .nav-con .nav-left ul.nav li a.arrow-f:hover {
+  background-color: #DE4E3E;
+}
+main .navgation .nav-con .nav-left ul.nav li a.arrow-f:hover span.arrow {
+  background: url("../img/icon.png") no-repeat -143px -9px;
+}
+main .navgation .nav-con .nav-left ul.nav li span.arrow {
+  background: url("../img/icon.png") no-repeat -143px 0;
+  width: 9px;
+  height: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+main .navgation .nav-con .nav-left ul.nav li em {
+  background: url("../img/icon.png") no-repeat -220px -58px;
+  width: 23px;
+  height: 15px;
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+main .navgation .nav-con .nav-left ul.nav li .dog-box {
+  display: none;
+  position: absolute;
+  width: 670px;
+  height: 204px;
+  background-color: red;
+  top: 44px;
+  left: 0;
+  z-index: 999;
+  border: 1px solid #de4e3e;
+  padding: 20px 0 15px 20px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  background: #FFF;
+}
+main .navgation .nav-con .nav-left ul.nav li .dog-box .dog-box-left {
+  float: left;
+  width: 470px;
+  height: 154px;
+  border-right: 1px dashed #ccc;
+  margin-top: 3px;
+}
+main .navgation .nav-con .nav-left ul.nav li .dog-box .dog-box-left .dog-shop,
+main .navgation .nav-con .nav-left ul.nav li .dog-box .dog-box-left .dog-encyclopedias {
+  float: left;
+  width: 230px;
+  height: 100%;
+}
+main .navgation .nav-con .nav-left ul.nav li .dog-box .dog-box-left .dog-shop h4,
+main .navgation .nav-con .nav-left ul.nav li .dog-box .dog-box-left .dog-encyclopedias h4 {
+  text-align: left;
+  font-size: 16px;
+}
+main .navgation .nav-con .nav-left ul.nav li .dog-box .dog-box-left .dog-shop h4 a,
+main .navgation .nav-con .nav-left ul.nav li .dog-box .dog-box-left .dog-encyclopedias h4 a {
+  color: #ff6655;
+}
+main .navgation .nav-con .nav-left ul.nav li .dog-box .dog-box-left .dog-shop p,
+main .navgation .nav-con .nav-left ul.nav li .dog-box .dog-box-left .dog-encyclopedias p {
+  text-align: left;
+  margin-top: 6px;
+}
+main .navgation .nav-con .nav-left ul.nav li .dog-box .dog-box-left .dog-shop p a,
+main .navgation .nav-con .nav-left ul.nav li .dog-box .dog-box-left .dog-encyclopedias p a {
+  font-size: 14px;
+  color: #000;
+}
+main .navgation .nav-con .nav-left ul.nav li .dog-box .dog-box-left .dog-shop p a:hover,
+main .navgation .nav-con .nav-left ul.nav li .dog-box .dog-box-left .dog-encyclopedias p a:hover {
+  color: #ff6655;
+}
+main .navgation .nav-con .nav-left ul.nav li .dog-box .dog-box-left .dog-shop p a + a,
+main .navgation .nav-con .nav-left ul.nav li .dog-box .dog-box-left .dog-encyclopedias p a + a {
+  margin-left: 8px;
+}
+main .navgation .nav-con .nav-left ul.nav li .dog-box .dog-box-left .dog-encyclopedias {
+  float: left;
+  width: 230px;
+  height: 100%;
+}
+main .navgation .nav-con .nav-left ul.nav li .dog-box .dog-box-right p a {
+  font-size: 16px;
+  color: #000;
+}
+main .navgation .nav-con .nav-left ul.nav li .dog-box .dog-box-right p a:hover {
+  color: #ff6655;
+}
+main .navgation .nav-con .nav-left ul.nav li .dog-box .dog-box-right p span {
+  color: #999;
+  font-size: 12px;
+}
+main .navgation .nav-con .nav-left ul.nav li .cat-box {
+  display: none;
+  position: absolute;
+  width: 670px;
+  height: 204px;
+  background-color: red;
+  top: 44px;
+  left: 0;
+  z-index: 999;
+  border: 1px solid #de4e3e;
+  padding: 20px 0 15px 20px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  background: #FFF;
+}
+main .navgation .nav-con .nav-left ul.nav li .cat-box .cat-box-left {
+  float: left;
+  width: 470px;
+  height: 154px;
+  border-right: 1px dashed #ccc;
+  margin-top: 3px;
+}
+main .navgation .nav-con .nav-left ul.nav li .cat-box .cat-box-left .cat-shop,
+main .navgation .nav-con .nav-left ul.nav li .cat-box .cat-box-left .cat-encyclopedias {
+  float: left;
+  width: 230px;
+  height: 100%;
+}
+main .navgation .nav-con .nav-left ul.nav li .cat-box .cat-box-left .cat-shop h4,
+main .navgation .nav-con .nav-left ul.nav li .cat-box .cat-box-left .cat-encyclopedias h4 {
+  text-align: left;
+  font-size: 16px;
+}
+main .navgation .nav-con .nav-left ul.nav li .cat-box .cat-box-left .cat-shop h4 a,
+main .navgation .nav-con .nav-left ul.nav li .cat-box .cat-box-left .cat-encyclopedias h4 a {
+  color: #ff6655;
+}
+main .navgation .nav-con .nav-left ul.nav li .cat-box .cat-box-left .cat-shop p,
+main .navgation .nav-con .nav-left ul.nav li .cat-box .cat-box-left .cat-encyclopedias p {
+  text-align: left;
+  margin-top: 6px;
+}
+main .navgation .nav-con .nav-left ul.nav li .cat-box .cat-box-left .cat-shop p a,
+main .navgation .nav-con .nav-left ul.nav li .cat-box .cat-box-left .cat-encyclopedias p a {
+  font-size: 14px;
+  color: #000;
+}
+main .navgation .nav-con .nav-left ul.nav li .cat-box .cat-box-left .cat-shop p a:hover,
+main .navgation .nav-con .nav-left ul.nav li .cat-box .cat-box-left .cat-encyclopedias p a:hover {
+  color: #ff6655;
+}
+main .navgation .nav-con .nav-left ul.nav li .cat-box .cat-box-left .cat-shop p a + a,
+main .navgation .nav-con .nav-left ul.nav li .cat-box .cat-box-left .cat-encyclopedias p a + a {
+  margin-left: 8px;
+}
+main .navgation .nav-con .nav-left ul.nav li .cat-box .cat-box-left .cat-encyclopedias {
+  float: left;
+  width: 230px;
+  height: 100%;
+}
+main .navgation .nav-con .nav-left ul.nav li .cat-box .cat-box-right p a {
+  font-size: 16px;
+  color: #000;
+}
+main .navgation .nav-con .nav-left ul.nav li .cat-box .cat-box-right p a:hover {
+  color: #ff6655;
+}
+main .navgation .nav-con .nav-left ul.nav li .cat-box .cat-box-right p span {
+  color: #999;
+  font-size: 12px;
+}
+main .navgation .nav-con .nav-left ul.nav li .pet-box {
+  display: none;
+  position: absolute;
+  width: 560px;
+  height: 265px;
+  background-color: red;
+  top: 44px;
+  left: 0;
+  z-index: 999;
+  border: 1px solid #de4e3e;
+  padding: 20px 0 15px 20px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  background: #FFF;
+}
+main .navgation .nav-con .nav-left ul.nav li .pet-box .pet-box-left {
+  float: left;
+  width: 365px;
+  height: 220px;
+  border-right: 1px dashed #ccc;
+  margin-top: 3px;
+}
+main .navgation .nav-con .nav-left ul.nav li .pet-box .pet-box-left .pet-shop,
+main .navgation .nav-con .nav-left ul.nav li .pet-box .pet-box-left .pet-encyclopedias {
+  float: left;
+  width: 200px;
+  height: 100%;
+}
+main .navgation .nav-con .nav-left ul.nav li .pet-box .pet-box-left .pet-shop h4,
+main .navgation .nav-con .nav-left ul.nav li .pet-box .pet-box-left .pet-encyclopedias h4 {
+  text-align: left;
+  font-size: 16px;
+}
+main .navgation .nav-con .nav-left ul.nav li .pet-box .pet-box-left .pet-shop h4 a,
+main .navgation .nav-con .nav-left ul.nav li .pet-box .pet-box-left .pet-encyclopedias h4 a {
+  color: #ff6655;
+}
+main .navgation .nav-con .nav-left ul.nav li .pet-box .pet-box-left .pet-shop p,
+main .navgation .nav-con .nav-left ul.nav li .pet-box .pet-box-left .pet-encyclopedias p {
+  text-align: left;
+  margin-top: 6px;
+}
+main .navgation .nav-con .nav-left ul.nav li .pet-box .pet-box-left .pet-shop p a,
+main .navgation .nav-con .nav-left ul.nav li .pet-box .pet-box-left .pet-encyclopedias p a {
+  font-size: 14px;
+  color: #000;
+}
+main .navgation .nav-con .nav-left ul.nav li .pet-box .pet-box-left .pet-shop p a:hover,
+main .navgation .nav-con .nav-left ul.nav li .pet-box .pet-box-left .pet-encyclopedias p a:hover {
+  color: #ff6655;
+}
+main .navgation .nav-con .nav-left ul.nav li .pet-box .pet-box-left .pet-shop p a + a,
+main .navgation .nav-con .nav-left ul.nav li .pet-box .pet-box-left .pet-encyclopedias p a + a {
+  margin-left: 8px;
+}
+main .navgation .nav-con .nav-left ul.nav li .pet-box .pet-box-left .pet-encyclopedias {
+  float: left;
+  width: 100px;
+  height: 100%;
+  margin-left: 40px;
+}
+main .navgation .nav-con .nav-left ul.nav li .pet-box .pet-box-right p a {
+  font-size: 16px;
+  color: #000;
+}
+main .navgation .nav-con .nav-left ul.nav li .pet-box .pet-box-right p a:hover {
+  color: #ff6655;
+}
+main .navgation .nav-con .nav-left ul.nav li .pet-box .pet-box-right p span {
+  color: #999;
+  font-size: 12px;
+}
+main .navgation .nav-con .nav-left ul.nav li .pet-box .pet-box-right p:nth-child(2) {
+  margin-top: 8px;
+}
+main .navgation .nav-con .nav-left ul.nav li .water-box {
+  display: none;
+  position: absolute;
+  width: 530px;
+  height: 220px;
+  top: 44px;
+  left: 0;
+  z-index: 999;
+  border: 1px solid #de4e3e;
+  padding: 20px 0 15px 20px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  background: #FFF;
+}
+main .navgation .nav-con .nav-left ul.nav li .water-box .water-box-left {
+  float: left;
+  width: 333px;
+  height: 180px;
+  border-right: 1px dashed #ccc;
+  margin-top: 3px;
+}
+main .navgation .nav-con .nav-left ul.nav li .water-box .water-box-left .water-shop,
+main .navgation .nav-con .nav-left ul.nav li .water-box .water-box-left .water-encyclopedias {
+  float: left;
+  width: 200px;
+  height: 100%;
+}
+main .navgation .nav-con .nav-left ul.nav li .water-box .water-box-left .water-shop h4,
+main .navgation .nav-con .nav-left ul.nav li .water-box .water-box-left .water-encyclopedias h4 {
+  text-align: left;
+  font-size: 16px;
+}
+main .navgation .nav-con .nav-left ul.nav li .water-box .water-box-left .water-shop h4 a,
+main .navgation .nav-con .nav-left ul.nav li .water-box .water-box-left .water-encyclopedias h4 a {
+  color: #ff6655;
+}
+main .navgation .nav-con .nav-left ul.nav li .water-box .water-box-left .water-shop p,
+main .navgation .nav-con .nav-left ul.nav li .water-box .water-box-left .water-encyclopedias p {
+  text-align: left;
+  margin-top: 6px;
+}
+main .navgation .nav-con .nav-left ul.nav li .water-box .water-box-left .water-shop p a,
+main .navgation .nav-con .nav-left ul.nav li .water-box .water-box-left .water-encyclopedias p a {
+  font-size: 14px;
+  color: #000;
+}
+main .navgation .nav-con .nav-left ul.nav li .water-box .water-box-left .water-shop p a:hover,
+main .navgation .nav-con .nav-left ul.nav li .water-box .water-box-left .water-encyclopedias p a:hover {
+  color: #ff6655;
+}
+main .navgation .nav-con .nav-left ul.nav li .water-box .water-box-left .water-shop p a + a,
+main .navgation .nav-con .nav-left ul.nav li .water-box .water-box-left .water-encyclopedias p a + a {
+  margin-left: 8px;
+}
+main .navgation .nav-con .nav-left ul.nav li .water-box .water-box-left .water-encyclopedias {
+  float: left;
+  width: 120px;
+  height: 100%;
+  margin-left: 5px;
+}
+main .navgation .nav-con .nav-left ul.nav li .water-box .water-box-right {
+  overflow: hidden;
+}
+main .navgation .nav-con .nav-left ul.nav li .water-box .water-box-right p a {
+  font-size: 16px;
+  color: #000;
+}
+main .navgation .nav-con .nav-left ul.nav li .water-box .water-box-right p a:hover {
+  color: #ff6655;
+}
+main .navgation .nav-con .nav-left ul.nav li .water-box .water-box-right p span {
+  color: #999;
+  font-size: 12px;
+}
+main .navgation .nav-con .nav-left ul.nav li .water-box .water-box-right p:nth-child(2) {
+  margin-top: 8px;
+}
+main .navgation .nav-con .nav-left ul.nav li .insect-box {
+  display: none;
+  position: absolute;
+  width: 530px;
+  height: 220px;
+  top: 44px;
+  left: 0;
+  z-index: 999;
+  border: 1px solid #de4e3e;
+  padding: 20px 0 15px 20px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  background: #FFF;
+}
+main .navgation .nav-con .nav-left ul.nav li .insect-box .insect-box-left {
+  float: left;
+  width: 333px;
+  height: 180px;
+  border-right: 1px dashed #ccc;
+  margin-top: 3px;
+}
+main .navgation .nav-con .nav-left ul.nav li .insect-box .insect-box-left .insect-shop,
+main .navgation .nav-con .nav-left ul.nav li .insect-box .insect-box-left .insect-encyclopedias {
+  float: left;
+  width: 200px;
+  height: 110px;
+}
+main .navgation .nav-con .nav-left ul.nav li .insect-box .insect-box-left .insect-shop h4,
+main .navgation .nav-con .nav-left ul.nav li .insect-box .insect-box-left .insect-encyclopedias h4 {
+  text-align: left;
+  font-size: 16px;
+}
+main .navgation .nav-con .nav-left ul.nav li .insect-box .insect-box-left .insect-shop h4 a,
+main .navgation .nav-con .nav-left ul.nav li .insect-box .insect-box-left .insect-encyclopedias h4 a {
+  color: #ff6655;
+}
+main .navgation .nav-con .nav-left ul.nav li .insect-box .insect-box-left .insect-shop p,
+main .navgation .nav-con .nav-left ul.nav li .insect-box .insect-box-left .insect-encyclopedias p {
+  text-align: left;
+  margin-top: 6px;
+}
+main .navgation .nav-con .nav-left ul.nav li .insect-box .insect-box-left .insect-shop p a,
+main .navgation .nav-con .nav-left ul.nav li .insect-box .insect-box-left .insect-encyclopedias p a {
+  font-size: 14px;
+  color: #000;
+}
+main .navgation .nav-con .nav-left ul.nav li .insect-box .insect-box-left .insect-shop p a:hover,
+main .navgation .nav-con .nav-left ul.nav li .insect-box .insect-box-left .insect-encyclopedias p a:hover {
+  color: #ff6655;
+}
+main .navgation .nav-con .nav-left ul.nav li .insect-box .insect-box-left .insect-shop p a + a,
+main .navgation .nav-con .nav-left ul.nav li .insect-box .insect-box-left .insect-encyclopedias p a + a {
+  margin-left: 8px;
+}
+main .navgation .nav-con .nav-left ul.nav li .insect-box .insect-box-left .insect-encyclopedias {
+  float: left;
+  width: 200px;
+  height: 100%;
+}
+main .navgation .nav-con .nav-left ul.nav li .insect-box .insect-box-right {
+  overflow: hidden;
+}
+main .navgation .nav-con .nav-left ul.nav li .insect-box .insect-box-right p a {
+  font-size: 16px;
+  color: #000;
+}
+main .navgation .nav-con .nav-left ul.nav li .insect-box .insect-box-right p a:hover {
+  color: #ff6655;
+}
+main .navgation .nav-con .nav-left ul.nav li .insect-box .insect-box-right p span {
+  color: #999;
+  font-size: 12px;
+}
+main .navgation .nav-con .nav-left ul.nav li .insect-box .insect-box-right p:nth-child(2) {
+  margin-top: 8px;
+}
+main .navgation .nav-con .nav-left ul.nav li.displace a {
+  background-color: #EE5544;
+}
+main .navgation .nav-con .nav-left ul.nav li.displace-big {
+  width: 137px;
+  height: 100%;
+}
+main .navgation .nav-con .nav-left ul.nav li.displace-big a {
+  border-right: 1px solid #e35342;
+  width: 136px;
+  height: 44px;
+}
+main .navgation .nav-con .nav-left ul.nav li.arrow-f-dog:hover .dog-box {
+  display: block;
+}
+main .navgation .nav-con .nav-left ul.nav li.arrow-f-cat:hover .cat-box {
+  display: block;
+}
+main .navgation .nav-con .nav-left ul.nav li.arrow-f-pet:hover .pet-box {
+  display: block;
+}
+main .navgation .nav-con .nav-left ul.nav li.arrow-f-water:hover .water-box {
+  display: block;
+}
+main .navgation .nav-con .nav-left ul.nav li.arrow-f-insect:hover .insect-box {
+  display: block;
+}
+main .navgation .nav-con .nav-right {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  width: 122px;
+  height: 44px;
+  text-align: center;
+  border-left: 1px solid #e35342;
+  border-right: 1px solid #e35342;
+}
+main .navgation .nav-con .nav-right:hover {
+  background-color: #DE4E3E;
+}
+main .navgation .nav-con .nav-right a {
+  width: 122px;
+  height: 44px;
+  line-height: 44px;
+  font-size: 18px;
+  color: #fff;
+}
+main .navgation .nav-con .nav-right a:hover {
+  text-decoration: none;
+}
+main .navgation .nav-con .nav-right a span {
+  width: 11px;
+  height: 17px;
+  background: url(../img/icon.png) no-repeat;
+  padding: 0 15px 0 0;
+  margin-right: 5px;
+  vertical-align: middle;
+}
